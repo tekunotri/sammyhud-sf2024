@@ -2189,8 +2189,16 @@ Scheme
 			{
 				"name"		"Product Sans Bold"
 				"tall"		"9"
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Product Sans Bold"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
 			}
 		}
 
@@ -2233,8 +2241,8 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"9"
+				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -2278,6 +2286,20 @@ Scheme
 				"tall"		"18"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Product Sans Bold"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Product Sans Bold"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		CenterPrintText
@@ -2473,6 +2495,7 @@ Scheme
 				"name"		"Product Sans Bold"
 				"tall"		"24"
 				"weight"	"500"
+				"yres"		"1 1199"
 				"additive"	"0"
 				"antialias" "1"
 			}
